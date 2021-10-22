@@ -13,3 +13,17 @@ The aim behind this project is to demonstrate my skills in the following areas:
 * Usage of version control software to maintain, upload and share code with other developers.
 
 * Testing and deploying a frontend web application to a cloud platform.
+
+## Site Overview
+
+The aim of this project is to create a website for a fictional venue to use as a platform to advertise their services, create single point of reference for upcoming events, and display images/photos from previous events.
+
+The target audience is existing tabletop gamers, and newcomers showing an interest in Tabletop Games.
+
+Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniature wargames, or tile-based games.[1]
+
+Such games can also usually be played via a Virtual Tabletop (VTT).
+
+# Credits
+
+[1] - Leading line from [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
