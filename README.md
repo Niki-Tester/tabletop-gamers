@@ -16,7 +16,7 @@ The aim behind this project is to demonstrate my skills in the following areas:
 
 ## Site Overview
 
-The aim of this project is to create a website for a fictional venue to use as a platform to advertise their services, create single point of reference for upcoming events, and display images/photos from previous events.
+The aim of this project is to create a website for a fictional venue to use as a platform to advertise their services, create single point of reference for upcoming events, display images/photos from previous events, and allow users to sign up to a newsletter.
 
 The target audience is existing tabletop gamers, and newcomers showing an interest in Tabletop Games.
 
