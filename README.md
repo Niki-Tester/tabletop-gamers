@@ -29,6 +29,6 @@ Such games can also usually be played via a Virtual Tabletop (VTT).
 * [**Site Overview**](#site-overview)
 * [**Credits**](#credits)
 
-# Credits
+## Credits
 
 [1] - Leading line from [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
