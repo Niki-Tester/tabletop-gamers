@@ -24,6 +24,11 @@ Tabletop games are games that are normally played on a table or other flat surfa
 
 Such games can also usually be played via a Virtual Tabletop (VTT).
 
+## Table of contents:
+* [**Project Overview**](#project-overview)
+* [**Site Overview**](#site-overview)
+* [**Credits**](#credits)
+
 # Credits
 
 [1] - Leading line from [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
