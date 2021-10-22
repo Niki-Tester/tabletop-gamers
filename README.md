@@ -33,7 +33,6 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
 * [**Site Overview**](#site-overview)
 * [**Planning Stage**](#planning-stage)
   * [**Target Audience**](#target-audience)
-  * [**Project Aims**](#project-aims)
   * [**Site Aims**](#site-aims)
 * [**Credits**](#credits)
   * [**References**](#references)
