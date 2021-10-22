@@ -49,9 +49,9 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
 * Users that have heard of tabletop games, but are looking for more information on the subject.
 
 
-### Project Aims:
+### Site Aims:
 * Provide the user with some basic information on what tabletop games are, and include external links to free resources for further reading.
-* Provide the user the option to sign up to a newsletter.
+* Provide the user an option to sign up to a newsletter.
 * Provide the user with a timeline of future events.
 * Provide the user with a photo/image gallary for past events.
 * Provide the user with a summary of services offered, and a location on where to join a group.
