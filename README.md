@@ -36,6 +36,7 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
   * [**Site Aims**](#site-aims)
   * [**Wireframes**](#wireframes)
   * [**User Stories**](#user-stories)
+  * [**How I Will Achieve This**](#how-i-will-achieve-this)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
@@ -73,11 +74,21 @@ Below are links to each page of the project, created to cover both the Desktop a
   <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/gallery_desktop.png) -->
 
 ### User Stories:
-<!-- As a < type of user >, I want < some goal > so that < some reason > -->
 * As a user, I want to understand what tabletop gaming is.
 * As a user, I want to leave knowing that I know more about tabletop gaming.
 * As a user, I want to be able to reach out and connect with an existing community.
-* As a user, I want find what I require quickly and easliy.
+* As a user, I want to find what I require quickly and easliy.
+
+### How Will I Achieve This:
+* Starting with the home page, this will provide a summary of what tabletop gaming is, and include at a glance information on events, about who the client is, and what services they offer.
+
+* Each subject will then have a dedicated page (About / Events / Gallery), each containing further information.
+
+* The about page will contain information about the client, the services they offer, and include links to relevant social media sites, and include the option to sign up to their news letter.
+
+* The events page will contain a timeline of dates / times and locations for upcoming events, each with a link for further information, leading the user to the clients news letter sign up.
+
+* The gallery page will contain an assortment of images/photos, captured from within the clients premises and from recently held events.
 
 ## Credits
 
