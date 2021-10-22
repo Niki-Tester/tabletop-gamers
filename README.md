@@ -86,9 +86,9 @@ Below are links to each page of the project, created to cover both the Desktop a
 
 * Each subject will then have a dedicated page (About / Events / Gallery), each containing further information.
 
-* The about page will contain information about the client, the services they offer, and include links to relevant social media sites, and include the option to sign up to their news letter.
+* The about page will contain information about the client, the services they offer, and include links to relevant social media sites.
 
-* The events page will contain a timeline of dates / times and locations for upcoming events, each with a link for further information, leading the user to the clients news letter sign up.
+* The events page will contain a timeline of dates / times and locations for upcoming events, each with a link for further information, leading the user to the clients news letter sign up. This page will also be the main page for the newsletter signup.
 
 * The gallery page will contain an assortment of images/photos, captured from within the clients premises and from recently held events.
 
