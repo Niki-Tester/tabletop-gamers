@@ -35,11 +35,10 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
   * [**Target Audience**](#target-audience)
   * [**Site Aims**](#site-aims)
   * [**Wireframes**](#wireframes)
+  * [**User Stories**](#user-stories)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
-
-
 
 ## Planning Stage
 
@@ -48,7 +47,6 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
 * Users that are new to tabletop games, looking to join a group of existing players.
 * Users that have never heard of tabletop games previously.
 * Users that have heard of tabletop games, but are looking for more information on the subject.
-
 
 ### Site Aims:
 * Provide the user with some basic information on what tabletop games are, and include external links to free resources for further reading.
@@ -73,6 +71,13 @@ Below are links to each page of the project, created to cover both the Desktop a
   <!-- * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/about_desktop.png) -->
   <!-- * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/events_desktop.png) -->
   <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/gallery_desktop.png) -->
+
+### User Stories:
+<!-- As a < type of user >, I want < some goal > so that < some reason > -->
+* As a user, I want to understand what tabletop gaming is.
+* As a user, I want to leave knowing that I know more about tabletop gaming.
+* As a user, I want to be able to reach out and connect with an existing community.
+* As a user, I want find what I require quickly and easliy.
 
 ## Credits
 
