@@ -63,7 +63,7 @@ To organise and streamline the development process, I created wireframes for thi
 Below are links to each page of the project, created to cover both the Desktop and Mobile versions.
 
 * Desktop Wireframes:
-  * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/docs/wireframes/desktop/homepage.png)
+  * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/homepage.png)
 
 ## Credits
 
