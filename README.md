@@ -1,3 +1,5 @@
+<!-- UPDATE ANY PLACE HOLDER COMMENTS WITH RELEVANT CONTENT -->
+<!-- REMOVE ALL COMMENTS BEFORE FINAL COMMIT -->
 # ![](assets/images/logo-tiny.png) **TABLETOP GAMERS** ![](assets/images/logo-tiny.png)
 
 ## Project Overview
@@ -20,15 +22,31 @@ The aim of this project is to create a website for a fictional venue to use as a
 
 The target audience is existing tabletop gamers, and newcomers showing an interest in Tabletop Games.
 
-Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniature wargames, or tile-based games.[1]
+Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniature wargames, or tile-based games. [1]
 
-Such games can also usually be played via a Virtual Tabletop (VTT).
+Such games can also usually be played via a Virtual Tabletop (VTT) such as [Tabletop Simulator](https://www.tabletopsimulator.com/), [Fantasy Grounds](https://www.fantasygrounds.com/) or [Roll20](https://roll20.net/).
+
+<!-- ![Place Holder For http://ami.responsivedesign.is Image]() -->
 
 ## Table of contents:
 * [**Project Overview**](#project-overview)
 * [**Site Overview**](#site-overview)
+* [**Planning Stage**](#planning-stage)
+  * [**Target Audience**](#target-audience)
 * [**Credits**](#credits)
+  * [**References**](#references)
+<!-- * [****]() -->
+
+## Planning Stage
+
+### Target Audience:
+* Users that are already playing tabletop games, but are looking for a group to play and socialize with.
+* Users that are new to tabletop games, looking to join a group of existing players.
+* Users that have never heard of tabletop games previously.
+* Users that have heard of tabletop games, but are looking for more information on the subject.
 
 ## Credits
+
+### References
 
 [1] - Leading line from [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
