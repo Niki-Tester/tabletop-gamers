@@ -34,6 +34,7 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
 * [**Planning Stage**](#planning-stage)
   * [**Target Audience**](#target-audience)
   * [**Site Aims**](#site-aims)
+  * [**Wireframes**](#wireframes)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
@@ -55,6 +56,14 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
 * Provide the user with a timeline of future events.
 * Provide the user with a photo/image gallary for past events.
 * Provide the user with a summary of services offered, and a location on where to join a group.
+
+### Wireframes:
+To organise and streamline the development process, I created wireframes for this project, to help prevent scope creep.
+
+Below are links to each page of the project, created to cover both the Desktop and Mobile versions.
+
+* Desktop Wireframes:
+  * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/docs/wireframes/desktop/homepage.png)
 
 ## Credits
 
