@@ -36,7 +36,7 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as Table
   * [**Site Aims**](#site-aims)
   * [**Wireframes**](#wireframes)
   * [**User Stories**](#user-stories)
-  * [**How I Will Achieve This**](#how-i-will-achieve-this)
+  * [**How Will I Achieve This**](#how-will-i-achieve-this)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
@@ -63,15 +63,15 @@ Below are links to each page of the project, created to cover both the Desktop a
 
 * Mobile Wireframes:
   * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/homepage_mobile.png)
-  <!-- * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/about_mobile.png) -->
-  <!-- * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/events_mobile.png) -->
-  <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/gallery_mobile.png) -->
+  * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/about_mobile.png)
+  * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/events_mobile.png)
+  * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/gallery_mobile.png)
 
 * Desktop Wireframes:
   * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/homepage_desktop.png)
-  <!-- * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/about_desktop.png) -->
-  <!-- * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/events_desktop.png) -->
-  <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/gallery_desktop.png) -->
+  * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/about_desktop.png)
+  * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/events_desktop.png)
+  * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/gallery_desktop.png)
 
 ### User Stories:
 * As a user, I want to understand what tabletop gaming is.
@@ -79,7 +79,7 @@ Below are links to each page of the project, created to cover both the Desktop a
 * As a user, I want to be able to reach out and connect with an existing community.
 * As a user, I want to find what I require quickly and easliy.
 
-### How Will I Achieve This:
+### How I Will Achieve This:
 * Starting with the home page, this will provide a summary of what tabletop gaming is, and include at a glance information on events, about who the client is, and what services they offer.
 
 * Each subject will then have a dedicated page (About / Events / Gallery), each containing further information.
