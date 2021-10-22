@@ -1,6 +1,6 @@
 <!-- UPDATE ANY PLACE HOLDER COMMENTS WITH RELEVANT CONTENT -->
 <!-- REMOVE ALL COMMENTS BEFORE FINAL COMMIT -->
-# ![](assets/images/logo-tiny.png) **TABLETOP GAMERS** ![](assets/images/logo-tiny.png)
+# 🎲 **TABLETOP GAMERS** 🃏
 
 ## Project Overview
 
@@ -24,7 +24,7 @@ The target audience is existing tabletop gamers, and newcomers showing an intere
 
 Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniature wargames, or tile-based games. [1]
 
-Such games can also usually be played via a Virtual Tabletop (VTT) such as [Tabletop Simulator](https://www.tabletopsimulator.com/), [Fantasy Grounds](https://www.fantasygrounds.com/) or [Roll20](https://roll20.net/).
+Such games can also usually be played via a Virtual Tabletop (VTT) such as Tabletop Simulator, Fantasy Groundsrounds or Roll20.
 
 <!-- ![Place Holder For http://ami.responsivedesign.is Image]() -->
 
@@ -33,9 +33,12 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as [Tabl
 * [**Site Overview**](#site-overview)
 * [**Planning Stage**](#planning-stage)
   * [**Target Audience**](#target-audience)
+  * [**Project Aims**](#project-aims)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
+
+
 
 ## Planning Stage
 
@@ -44,6 +47,14 @@ Such games can also usually be played via a Virtual Tabletop (VTT) such as [Tabl
 * Users that are new to tabletop games, looking to join a group of existing players.
 * Users that have never heard of tabletop games previously.
 * Users that have heard of tabletop games, but are looking for more information on the subject.
+
+
+### Project Aims:
+* Provide the user with some basic information on what tabletop games are, and include external links to free resources for further reading.
+* Provide the user the option to sign up to a newsletter.
+* Provide the user with a timeline of future events.
+* Provide the user with a photo/image gallary for past events.
+* Provide the user with a summary of services offered, and a location on where to join a group.
 
 ## Credits
 
