@@ -26,6 +26,8 @@ Tabletop games are games that are normally played on a table or other flat surfa
 
 Such games can also usually be played via a Virtual Tabletop (VTT) such as Tabletop Simulator, Fantasy Grounds or Roll20.
 
+The site will contain references to both forms of tabletop gaming.
+
 <!-- ![Place Holder For http://ami.responsivedesign.is Image]() -->
 
 ## Table of contents:
