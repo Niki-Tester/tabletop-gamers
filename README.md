@@ -18,7 +18,7 @@ The aim behind this project is to demonstrate my skills in the following areas:
 
 ## Site Overview
 
-The aim of this project is to create a website for a fictional venue to use as a platform to advertise their services, create single point of reference for upcoming events, display images/photos from previous events, and allow users to sign up to a newsletter.
+The focus will be on creating a website for a fictional venue to use as a platform to advertise their services, create single point of reference for upcoming events, display images/photos from previous events, and allow users to sign up to a newsletter.
 
 The target audience is existing tabletop gamers, and newcomers showing an interest in Tabletop Games.
 
@@ -64,9 +64,15 @@ Below are links to each page of the project, created to cover both the Desktop a
 
 * Mobile Wireframes:
   * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/homepage_mobile.png)
+  <!-- * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/about_mobile.png) -->
+  <!-- * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/events_mobile.png) -->
+  <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/mobile/gallery_mobile.png) -->
 
 * Desktop Wireframes:
   * [Homepage](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/homepage_desktop.png)
+  <!-- * [About](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/about_desktop.png) -->
+  <!-- * [Events](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/events_desktop.png) -->
+  <!-- * [Gallery](https://github.com/Niki-Tester/tabletop-gamers/blob/main/doc/wireframes/desktop/gallery_desktop.png) -->
 
 ## Credits
 
