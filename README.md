@@ -24,7 +24,7 @@ The target audience is existing tabletop gamers, and newcomers showing an intere
 
 Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniature wargames, or tile-based games. [1]
 
-Such games can also usually be played via a Virtual Tabletop (VTT) such as Tabletop Simulator, Fantasy Groundsrounds or Roll20.
+Such games can also usually be played via a Virtual Tabletop (VTT) such as Tabletop Simulator, Fantasy Grounds or Roll20.
 
 <!-- ![Place Holder For http://ami.responsivedesign.is Image]() -->
 
