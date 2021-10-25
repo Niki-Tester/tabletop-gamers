@@ -39,6 +39,7 @@ The site will contain references to both forms of tabletop gaming.
   * [**Wireframes**](#wireframes)
   * [**User Stories**](#user-stories)
   * [**How Will I Achieve This**](#how-will-i-achieve-this)
+* [**Development**](#development)
 * [**Credits**](#credits)
   * [**References**](#references)
 <!-- * [****]() -->
@@ -91,6 +92,15 @@ Below are links to each page of the project, created to cover both the Desktop a
 * The events page will contain a timeline of dates / times and locations for upcoming events, each with a link for further information, leading the user to the clients news letter sign up. This page will also be the main page for the newsletter signup.
 
 * The gallery page will contain an assortment of images/photos, captured from within the clients premises and from recently held events.
+
+## Development
+During development issues/bugs were found, where results did not meet expectations.
+These issues/bugs have been documented separately, and can be found below.
+
+This is also where any testing that has been completed will be documented.
+
+[Issues, Resolutions & Testing Document](TESTING.md)
+
 
 ## Credits
 
