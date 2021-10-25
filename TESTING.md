@@ -7,7 +7,7 @@
 
 ## Development Testing
 
-Below are a list of Issues found during the development process, detailing the issue found, expected result, and resolution, along with the relevant commit made when the issue was resolved.
+Below is a list of issues found during the development process, detailing the issues found, the expected results, and any resolutions, along with the relevant commit if the issue was resolved.
 
 ---
 
