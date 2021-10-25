@@ -15,7 +15,7 @@ Below is a list of issues found during the development process, detailing the is
 HTML rendered without any styling. Only showing default browser style when viewing via GitHub Pages, styling loads correctly when viewed via GitPod.
 
 **Expected Result:**
-Site to load with all implemented customer styling from style.css file to match that from local build in GitPod.
+Site to load with all implemented custom styling from style.css file to match that from local build in GitPod.
 
 **Resolution:**
 Changed path from an absolute path to a relative path.
