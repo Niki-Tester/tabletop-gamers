@@ -28,4 +28,63 @@ body {
     color: var(--text-dark);
 }
 
+.active {
+    border-bottom: 1px solid var(--highlighted);
+}
+
+/* #endregion */
+
+/* #region Header / Nav */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5em 0;
+    font-family: Exo, sans-serif;
+    background-color: var(--bg-accent);
+}
+
+#header-logo-container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+#header-logo-container a img {
+    height: 25px;
+}
+
+#header-logo-container a h1 {
+    text-transform: uppercase;
+    padding-left: .25em;
+    font-size: 12px;
+}
+
+#navbar-container ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#navbar-container li {
+    display: flex;
+    justify-content: center;
+    margin: .25em;
+}
+
+#navbar-container li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-light);
+    font-size: 10px;
+    transition: all 250ms ease-in-out;
+}
+
+#navbar-container li a:hover {
+    color: var(--highlighted);
+}
+
 /* #endregion */
