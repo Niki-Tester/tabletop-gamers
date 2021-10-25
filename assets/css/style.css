@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+
+/* #region Utility CSS */
+
+:root {
+    /* Text Colours */
+    --text-light: #fff;
+    --text-dark: #555;
+    --text-accent: #910000;
+
+    /* Background Colours */
+    --bg-light: #fafafa;
+    --bg-dark: #555;
+    --bg-accent: #910000;
+
+    /* Misc Colours */
+    --highlighted: #eeee00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-dark);
+}
+
+/* #endregion */
