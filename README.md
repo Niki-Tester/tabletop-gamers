@@ -122,4 +122,3 @@ Local Event Image used in index.html by [Pavel Danilyuk](https://www.pexels.com/
 Tabletop Games article - [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
 
 Virtual / Digital Tabletop Games article - [Wikipedia - Digital Tabletop Game](https://en.wikipedia.org/wiki/Digital_tabletop_game)
-
