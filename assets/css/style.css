@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-dark);
@@ -122,6 +126,7 @@ header {
 /* #endregion */
 
 /* #region Hero Section */
+
 #hero-section {
     display: flex;
     justify-content: center;
