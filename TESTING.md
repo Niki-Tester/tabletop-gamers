@@ -76,6 +76,7 @@ I did this by getting the height of the header and setting the yOffset of the Na
 When clicking anchor link on hero section, page scrolls to the linked section, but the top of the section is cut-off by the header.
 
 ![Content Scrolling Past Header](doc/issues/images/issue-scrolling-past-header.png)
+
 Left Image: Showing content of page under header.
 
 Right Image: Showing expected result.
