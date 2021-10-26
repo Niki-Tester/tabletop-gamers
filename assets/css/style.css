@@ -238,7 +238,6 @@ header {
 
 #section-what .article-text p {
     margin: 0 0.5em;
-    text-align: justify;
 }
 
 #section-what .article-text p:not(:last-child) {
