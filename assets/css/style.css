@@ -37,12 +37,16 @@ body {
 /* #region Header / Nav */
 
 header {
+    position: fixed;
+    left: 0;
+    right: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: .5em 0;
+    padding: .5em .5em;
     font-family: Exo, sans-serif;
     background-color: var(--bg-accent);
+    z-index: 1;
 }
 
 #header-logo-container a {
@@ -54,13 +58,13 @@ header {
 }
 
 #header-logo-container a img {
-    height: 40px;
+    height: 35px;
 }
 
 #header-logo-container a h1 {
     text-transform: uppercase;
     padding-left: .25em;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #navbar-container {
@@ -68,9 +72,7 @@ header {
     top: 0px;
     right: 0;
     background-color: var(--bg-accent);
-    box-shadow: 5px 8px 8px #888888;
     transition: all 0.5s ease-in-out;
-    z-index: -1;
 }
 
 #navbar-container ul {
@@ -93,7 +95,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--text-light);
-    font-size: 18px;
+    font-size: 16px;
     transition: all 250ms ease-in-out;
 }
 
@@ -110,12 +112,99 @@ header {
     display: none;
     color: var(--text-light);
     font-size: 27px;
-    z-index: 99;
 }
 
 #menu-button:hover,
 #menu-close-button:hover {
     color: var(--highlighted);
+}
+
+/* #endregion */
+
+/* #region Hero Section */
+#hero-section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#hero-image {
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1563941402622-4e7a488bcc57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center/center;
+    background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: overlay;
+}
+
+#hero-text {
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    color: var(--text-light);
+}
+
+
+
+#hero-text h1 {
+    font-size: 2.2em;
+    margin-bottom: .5em;
+
+    opacity: 0;
+    animation-name: text-fade;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#hero-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 1.25em;
+
+    opacity: 0;
+    animation-name: text-fade;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-text a {
+    text-decoration: none;
+}
+
+#hero-text i {
+    /* display: inline-block; */
+    font-size: 2em;
+
+    color: var(--text-light);
+    opacity: 0;
+    animation: blinker 1.5s 6s infinite forwards, text-fade 1.5s 3s forwards;
+}
+
+#hero-text>a:hover {
+    cursor: pointer;
+}
+
+@keyframes text-fade {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes blinker {
+    from {
+        color: var(--text-light)
+    }
+
+    to {
+        color: var(--text-accent)
+    }
 }
 
 /* #endregion */
