@@ -114,4 +114,5 @@ This is also where any testing that has been completed will be documented.
 [1] - Leading line from [Wikipedia - Tabletop Game](https://en.wikipedia.org/wiki/Tabletop_game)
 
 Hero Image used in index.html by [Christopher Paul High](https://unsplash.com/@christopherphigh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) from [Unsplash](https://unsplash.com/s/photos/tabletop-games?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  
+
+Local Event Image used in index.html by [Pavel Danilyuk](https://www.pexels.com/@pavel-danilyuk) from [Pexels](https://images.pexels.com/photos/8111358/pexels-photo-8111358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
