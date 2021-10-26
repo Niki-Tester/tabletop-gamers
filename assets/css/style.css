@@ -314,3 +314,61 @@ header {
 }
 
 /* #endregion */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0.5em 0 0.5em;
+    background: var(--bg-dark);
+    color: var(--text-light);
+    margin-top: 5em;
+}
+
+#footer div {
+    margin: 0.5em;
+    text-align: center;
+}
+
+#footer div h5 {
+    margin-bottom: 0.25em;
+    font-family: 'Exo', sans-serif;
+}
+
+#footer .footer-section-1 h5 {
+    font-size: 1em;
+    margin-bottom: 0.25em;
+}
+
+#footer .footer-section-1 form input {
+    padding: 0.25em 0.15em;
+}
+
+#footer .footer-section-1 form input[type=submit] {
+    padding: 0.35em;
+    background-color: var(--bg-accent);
+    color: var(--text-light);
+    border: none;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+    letter-spacing: 1px;
+}
+
+#footer .footer-section-1 form input[type=submit]:hover {
+    background: var(--highlighted);
+    color: #000;
+}
+
+#footer .footer-section-2 a {
+    color: var(--text-light);
+    margin: 0 1em;
+}
+
+#footer .footer-section-2 a:hover {
+    color: var(--highlighted);
+}
+
+#footer .footer-section-2 a i {
+    font-size: 2.5em;
+}
