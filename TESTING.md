@@ -82,7 +82,7 @@ Left Image: Showing content of page under header.
 Right Image: Showing expected result.
 
 **Expected Result:**
-Site should scroll so that the top of the linked section is brought to the top of the page, but the start of the page should still be below the header.
+Site should scroll so that the top of the linked section is brought to the top of the page, but the start of the section should still be below the header.
 
 **Resolution:**
 I found that the issue was being caused because the header is fixed to the top of the page. After sometime, reading [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS) on MDN, I found that it is possible to set a [scroll-padding](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) so that an offset can be set, to take into account the estimate hight of the header.
