@@ -235,7 +235,7 @@ header {
 }
 
 #section-what .article-text p {
-    margin-left: 0.5em;
+    margin: 0 0.5em;
 }
 
 #section-what .article-text p:not(:last-child) {
