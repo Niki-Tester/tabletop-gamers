@@ -145,8 +145,6 @@ header {
     color: var(--text-light);
 }
 
-
-
 #hero-text h1 {
     font-size: 2.2em;
     margin-bottom: .5em;
@@ -175,7 +173,6 @@ header {
 }
 
 #hero-text i {
-    /* display: inline-block; */
     font-size: 2em;
 
     color: var(--text-light);
