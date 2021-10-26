@@ -72,3 +72,22 @@ I did this by getting the height of the header and setting the yOffset of the Na
 [900ee98676934828523c73fd266818bcabe61ec1](https://github.com/Niki-Tester/tabletop-gamers/commit/900ee98676934828523c73fd266818bcabe61ec1)
 
 ---
+**Issue Found:**
+When clicking anchor link on hero section, page scrolls to the linked section, but the top of the section is cut-off by the header.
+
+**Expected Result:**
+Site should scroll so that the top of the linked section is brought to the top of the page, but the start of the page should still be below the header.
+
+**Resolution:**
+I found that the issue was being caused because the header is fixed to the top of the page. After sometime, reading [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS) on MDN, I found that it is possible to set a [scroll-padding](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) so that an offset can be set, to take into account the estimate hight of the header.
+
+I did this by giving the html element the [scroll-padding-top](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) property, and used the browsers developer tools to view the height of the header, and used that value to set the padding in pixels.
+
+Applying just the pixel height of the header to [scroll-padding-top](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) worked, but it still looked too close to the header, so I added an additional 10px to this property so that it looks more appealing.
+
+This will need to be adjusted for different screen sizes, especially if the headers height changes between screens.
+
+**Commit:**
+[941e575d8616a2a0c7d850fe0eeed44eced14ca6](https://github.com/Niki-Tester/tabletop-gamers/commit/941e575d8616a2a0c7d850fe0eeed44eced14ca6)
+
+---
