@@ -75,6 +75,11 @@ I did this by getting the height of the header and setting the yOffset of the Na
 **Issue Found:**
 When clicking anchor link on hero section, page scrolls to the linked section, but the top of the section is cut-off by the header.
 
+![Content Scrolling Past Header](doc/issues/images/issue-scrolling-past-header.png)
+Left Image: Showing content of page under header.
+
+Right Image: Showing expected result.
+
 **Expected Result:**
 Site should scroll so that the top of the linked section is brought to the top of the page, but the start of the page should still be below the header.
 
