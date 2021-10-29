@@ -50,7 +50,7 @@ Updated Path:
 
 - Changed path from an absolute path to a relative path. 
 
-    Previous Path:
+Previous Path:
 ```html 
 <img src="/assets/images/logo.png" alt="Tabletop Gamers Logo - Small">
 ```
