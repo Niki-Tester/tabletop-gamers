@@ -314,6 +314,8 @@ header {
 }
 
 /* #endregion */
+
+/* #region - Footer */
 footer {
     display: flex;
     flex-direction: column;
@@ -372,3 +374,5 @@ footer {
 #footer .footer-section-2 a i {
     font-size: 2.5em;
 }
+
+/* #endregion */
