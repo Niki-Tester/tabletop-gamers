@@ -57,6 +57,7 @@ Updated Path:
 [8827bb1194a1c89e4e46f653d2b2ee64c1c9b2e1](https://github.com/Niki-Tester/tabletop-gamers/commit/8827bb1194a1c89e4e46f653d2b2ee64c1c9b2e1)
 
 ---
+
 **Issue Found:**
 Nav-Menu dropdown for small screens, does not always sit at bottom of header, leaving a gap between the top of the nav-menu, and the bottom of the header. This means the content behind the menu is visible in that gap.
 
@@ -72,6 +73,7 @@ I did this by getting the height of the header and setting the yOffset of the Na
 [900ee98676934828523c73fd266818bcabe61ec1](https://github.com/Niki-Tester/tabletop-gamers/commit/900ee98676934828523c73fd266818bcabe61ec1)
 
 ---
+
 **Issue Found:**
 When clicking anchor link on hero section, page scrolls to the linked section, but the top of the section is cut-off by the header.
 
@@ -97,3 +99,30 @@ This will need to be adjusted for different screen sizes, especially if the head
 [941e575d8616a2a0c7d850fe0eeed44eced14ca6](https://github.com/Niki-Tester/tabletop-gamers/commit/941e575d8616a2a0c7d850fe0eeed44eced14ca6)
 
 ---
+
+**Issue Found:**
+When toggling the menu button, visible on small screens, contained within the header, the menu renders above the menu & close button.
+
+**Expected Result:**
+When the menu is displayed, it should be rendered below the header.
+
+**Resolution:**
+Moved the navbar-container outside, and above the header, in index.html. This means that the Nav is rendered behind the header background.
+
+**Commit:**
+[869b740d7bf5b14fcb89891e77956abed026af9f](https://github.com/Niki-Tester/tabletop-gamers/commit/869b740d7bf5b14fcb89891e77956abed026af9f)
+
+---
+
+<!-- ---
+
+**Issue Found:**
+
+**Expected Result:**
+
+**Resolution:**
+
+**Commit:**
+[](https://github.com/Niki-Tester/tabletop-gamers/commit/)
+
+--- -->
