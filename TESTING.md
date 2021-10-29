@@ -149,12 +149,15 @@ Changed display property on navbar-container to fixed.
 ---
 
 **Issue Found:**
+
 Menu is not extending the full width of the screen.
 
 **Expected Result:**
+
 Menu should extend the full width of the screen, and not be just show on the right side.
 
 **Resolution:**
+
 Changed display property on navbar-container to fixed.
 
 **Commit:**
