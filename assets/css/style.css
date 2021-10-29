@@ -49,7 +49,45 @@ a:hover {
 
 /* #endregion */
 
-/* #region Header / Nav */
+/* #region Nav / Header */
+
+#navbar-container {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-color: var(--bg-accent);
+    transition: all 0.5s ease-in-out;
+}
+
+#navbar-container-md {
+    display: none;
+}
+
+#navbar-container ul,
+#navbar-container-md ul {
+    list-style: none;
+    /* padding: .1em 1.5em; */
+    line-height: 3em;
+    margin: .25em 1em;
+}
+
+#navbar-container li {
+    text-align: center;
+}
+
+#navbar-container li a,
+#navbar-container-md li a {
+    margin: 0 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-light);
+    font-size: 16px;
+    transition: all 250ms ease-in-out;
+}
+
+#navbar-container li a:hover {
+    color: var(--highlighted);
+}
 
 header {
     position: fixed;
@@ -82,40 +120,9 @@ header {
     font-size: 18px;
 }
 
-#navbar-container {
-    position: absolute;
-    top: 0px;
-    right: 0;
-    background-color: var(--bg-accent);
-    transition: all 0.5s ease-in-out;
-}
-
-#navbar-container ul {
-    list-style: none;
-    padding: .1em 1.5em;
-    line-height: 3em;
-    margin: .25em 1em;
-}
-
-#navbar-container li {
-    text-align: center;
-}
-
 #menu-control {
     width: 28px;
     height: 28px;
-}
-
-#navbar-container li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--text-light);
-    font-size: 16px;
-    transition: all 250ms ease-in-out;
-}
-
-#navbar-container li a:hover {
-    color: var(--highlighted);
 }
 
 #menu-button {
@@ -373,6 +380,30 @@ footer {
 
 #footer .footer-section-2 a i {
     font-size: 2.5em;
+}
+
+/* #endregion */
+
+/* #region - Media Queries */
+/* Tablets */
+@media (min-width: 768px) {
+
+    html {
+        scroll-padding-top: 88px
+    }
+
+    #navbar-container,
+    #menu-control {
+        display: none;
+    }
+
+    #navbar-container-md {
+        display: flex;
+    }
+
+    #navbar-container-md ul {
+        display: flex;
+    }
 }
 
 /* #endregion */
