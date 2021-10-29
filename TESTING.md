@@ -12,12 +12,15 @@ Below is a list of issues found during the development process, detailing the is
 ---
 
 **Issue Found:**
+
 HTML rendered without any styling. Only showing default browser style when viewing via GitHub Pages, styling loads correctly when viewed via GitPod.
 
 **Expected Result:**
+
 Site to load with all implemented custom styling from style.css file to match that from local build in GitPod.
 
 **Resolution:**
+
 Changed path from an absolute path to a relative path.
 
 Previous Path:
@@ -36,12 +39,15 @@ Updated Path:
 ---
 
 **Issue Found:**
+
 logo.png not being rendered within header when viewing via GitHub Pages. Contents of alt attribute is visible. Logo is being rendered as expected when being viewed via GitPod.
 
 **Expected Result:**
+
 logo.png expected to load within header element.
 
 **Resolution:**
+
 Changed path from an absolute path to a relative path. 
 
 Previous Path:
@@ -59,12 +65,15 @@ Updated Path:
 ---
 
 **Issue Found:**
+
 Nav-Menu dropdown for small screens, does not always sit at bottom of header, leaving a gap between the top of the nav-menu, and the bottom of the header. This means the content behind the menu is visible in that gap.
 
 **Expected Result:**
+
 Menu should drop no lower than the bottom of the header, so that there is no gap between the bottom of the header and the top of the nav-menu.
 
 **Resolution:**
+
 After researching I have found that it is possible to get the dimensions of an element, (inc. any margin and padding) in pixels using [HTMLElement.offsetHeight](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight) and [HTMLElement.offsetWidth](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetWidth), although I only need to use the Height property to fix this issue.
 
 I did this by getting the height of the header and setting the yOffset of the Nav-Menu to that value, this means that regardless of how big the header is, the Nav-Menu will always line up at the bottom of the header.
@@ -75,6 +84,7 @@ I did this by getting the height of the header and setting the yOffset of the Na
 ---
 
 **Issue Found:**
+
 When clicking anchor link on hero section, page scrolls to the linked section, but the top of the section is cut-off by the header.
 
 ![Content Scrolling Past Header](doc/issues/images/issue-scrolling-past-header.png)
@@ -84,9 +94,11 @@ Left Image: Showing content of page under header.
 Right Image: Showing expected result.
 
 **Expected Result:**
+
 Site should scroll so that the top of the linked section is brought to the top of the page, but the start of the section should still be below the header.
 
 **Resolution:**
+
 I found that the issue was being caused because the header is fixed to the top of the page. After sometime, reading [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS) on MDN, I found that it is possible to set a [scroll-padding](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) so that an offset can be set, to take into account the estimate hight of the header.
 
 I did this by giving the html element the [scroll-padding-top](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding) property, and used the browsers developer tools to view the height of the header, and used that value to set the padding in pixels.
@@ -101,12 +113,15 @@ This will need to be adjusted for different screen sizes, especially if the head
 ---
 
 **Issue Found:**
+
 When toggling the menu button, visible on small screens, contained within the header, the menu renders above the menu & close button.
 
 **Expected Result:**
+
 When the menu is displayed, it should be rendered below the header.
 
 **Resolution:**
+
 Moved the navbar-container outside, and above the header, in index.html. This means that the Nav is rendered behind the header background.
 
 **Commit:**
@@ -115,14 +130,17 @@ Moved the navbar-container outside, and above the header, in index.html. This me
 ---
 
 **Issue Found:**
+
 Menu is visible below the header, even when menu is closed.
 
 ![Menu is visible below the header](doc/issues/images/issue-menu-small-screen.png)
 
 **Expected Result:**
+
 Menu should only be visible when the menu is open.
 
 **Resolution:**
+
 Changed display property on navbar-container to fixed.
 
 **Commit:**
