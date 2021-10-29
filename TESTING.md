@@ -114,15 +114,44 @@ Moved the navbar-container outside, and above the header, in index.html. This me
 
 ---
 
-<!-- ---
-
 **Issue Found:**
+Menu is visible below the header, even when menu is closed.
+
+![Menu is visible below the header](doc/issues/images/issue-menu-small-screen.png)
 
 **Expected Result:**
+Menu should only be visible when the menu is open.
 
 **Resolution:**
+Changed display property on navbar-container to fixed.
 
 **Commit:**
 [](https://github.com/Niki-Tester/tabletop-gamers/commit/)
 
---- -->
+---
+
+**Issue Found:**
+Menu is not extending the full width of the screen.
+
+**Expected Result:**
+Menu should extend the full width of the screen, and not be just show on the right side.
+
+**Resolution:**
+Changed display property on navbar-container to fixed.
+
+**Commit:**
+[](https://github.com/Niki-Tester/tabletop-gamers/commit/)
+
+<!-- ---
+
+**Issue Found:**
+
+
+**Expected Result:**
+
+
+**Resolution:**
+
+
+**Commit:**
+[](https://github.com/Niki-Tester/tabletop-gamers/commit/) -->
