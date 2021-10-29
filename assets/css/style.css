@@ -66,7 +66,6 @@ a:hover {
 #navbar-container ul,
 #navbar-container-md ul {
     list-style: none;
-    /* padding: .1em 1.5em; */
     line-height: 3em;
     margin: .25em 1em;
 }
@@ -85,7 +84,8 @@ a:hover {
     transition: all 250ms ease-in-out;
 }
 
-#navbar-container li a:hover {
+#navbar-container li a:hover,
+#navbar-container-md li a:hover {
     color: var(--highlighted);
 }
 
