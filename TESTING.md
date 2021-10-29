@@ -126,7 +126,7 @@ Menu should only be visible when the menu is open.
 Changed display property on navbar-container to fixed.
 
 **Commit:**
-[](https://github.com/Niki-Tester/tabletop-gamers/commit/)
+[21dda936402788d004f6e0451d39a7995189ff47](https://github.com/Niki-Tester/tabletop-gamers/commit/21dda936402788d004f6e0451d39a7995189ff47)
 
 ---
 
@@ -140,7 +140,7 @@ Menu should extend the full width of the screen, and not be just show on the rig
 Changed display property on navbar-container to fixed.
 
 **Commit:**
-[](https://github.com/Niki-Tester/tabletop-gamers/commit/)
+[21dda936402788d004f6e0451d39a7995189ff47](https://github.com/Niki-Tester/tabletop-gamers/commit/21dda936402788d004f6e0451d39a7995189ff47)
 
 <!-- ---
 
