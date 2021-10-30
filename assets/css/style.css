@@ -386,7 +386,8 @@ footer {
 /* #endregion */
 
 /* #region - Media Queries */
-/* Tablets */
+
+/* Screen Size - Tablet */
 @media (min-width: 768px) {
 
     html {
@@ -405,6 +406,18 @@ footer {
     #navbar-container-md ul {
         display: flex;
     }
+
+    footer {
+        flex-direction: row;
+    }
+
+    footer .footer-section-2 {
+        display: grid;
+        grid-template-columns: 75px 75px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
 }
 
 /* #endregion */
