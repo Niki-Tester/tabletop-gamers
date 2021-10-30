@@ -328,8 +328,8 @@ header {
 
 #event-image,
 #virtual-event-image {
-    display: inline-block;
-    margin-top: 1em;
+    display: block;
+    margin: 1em auto;
     border-radius: 25px;
     max-width: 85%;
     bottom: 0px;
@@ -426,7 +426,7 @@ footer {
     }
 
     #hero-section h1 {
-        font-size: 2.5eem;
+        font-size: 2.5em;
     }
 
     #section-what h2 {
@@ -443,11 +443,8 @@ footer {
     }
 
     #event-image {
-        display: inline-block;
-    }
-
-    #event-two {
-        height: 100%;
+        display: block;
+        margin: auto;
     }
 
     footer {
@@ -467,21 +464,6 @@ footer {
         margin: 0.5em auto;
 
     }
-}
-
-@media (min-width: 1023px) {
-    #section-what img {
-        display: inline-block;
-        object-fit: cover;
-        width: 100px;
-        height: 100%;
-    }
-
-    .article {
-        display: flex;
-        flex-direction: column;
-    }
-
 }
 
 /* #endregion */
