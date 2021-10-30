@@ -11,6 +11,7 @@
     /* Background Colours */
     --bg-light: #fafafa;
     --bg-dark: #555;
+    --bg-accent-dark: #660000;
     --bg-accent: #910000;
 
     /* Misc Colours */
@@ -244,7 +245,7 @@ header {
     color: var(--text-accent);
 }
 
-#section-what .article img {
+#section-what img {
     display: none;
 }
 
@@ -284,7 +285,9 @@ header {
 
 /* #region Section - Events Brief */
 #events-brief {
-    margin: 1em;
+    padding: 2em;
+    background-color: var(--bg-accent-dark);
+    color: var(--text-light);
 }
 
 #events-brief h2 {
@@ -292,12 +295,13 @@ header {
     text-align: center;
     font-family: 'Exo', sans-serif;
     font-size: 1em;
-    color: var(--text-accent);
+    color: var(--highlighted);
     text-transform: uppercase;
 }
 
 .event-info {
     text-align: center;
+    padding: 0 1.5em;
 }
 
 .event-info i {
@@ -313,11 +317,25 @@ header {
     margin: 1em 0;
 }
 
-#events-brief img {
-    width: 100%;
+#events-brief a {
+    color: var(--text-light);
+    text-decoration: underline;
 }
 
-#events-brief img:last-of-type {
+#events-brief a:hover {
+    color: var(--highlighted);
+}
+
+#event-image,
+#virtual-event-image {
+    display: inline-block;
+    margin-top: 1em;
+    border-radius: 25px;
+    max-width: 85%;
+    bottom: 0px;
+}
+
+#event-image {
     display: none;
 }
 
@@ -332,7 +350,6 @@ footer {
     padding: 0.5em 0.5em 0 0.5em;
     background: var(--bg-dark);
     color: var(--text-light);
-    margin-top: 5em;
 }
 
 #footer div {
@@ -380,7 +397,8 @@ footer {
 }
 
 #footer .footer-section-2 a i {
-    font-size: 2.5em;
+    margin: 0.5em 0;
+    font-size: 2em;
 }
 
 /* #endregion */
@@ -388,7 +406,7 @@ footer {
 /* #region - Media Queries */
 
 /* Screen Size - Tablet */
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
     html {
         scroll-padding-top: 88px
@@ -407,15 +425,61 @@ footer {
         display: flex;
     }
 
+    #hero-section h1 {
+        font-size: 2.5eem;
+    }
+
+    #section-what h2 {
+        font-size: 1.3em;
+    }
+
+    #events-brief {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #events-brief h2 {
+        font-size: 1.3em;
+    }
+
+    #event-image {
+        display: inline-block;
+    }
+
+    #event-two {
+        height: 100%;
+    }
+
     footer {
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
     footer .footer-section-2 {
         display: grid;
         grid-template-columns: 75px 75px;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    footer input[type=submit] {
+        display: block;
+        margin: 0.5em auto;
+
+    }
+}
+
+@media (min-width: 1023px) {
+    #section-what img {
+        display: inline-block;
+        object-fit: cover;
+        width: 100px;
+        height: 100%;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
     }
 
 }
