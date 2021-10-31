@@ -233,7 +233,7 @@ header {
 
 /* #region Section - What */
 #section-what {
-    margin-top: 1em;
+    margin: 1em 2em 0 2em;
 }
 
 #section-what>h2 {
