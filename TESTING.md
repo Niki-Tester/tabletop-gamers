@@ -163,16 +163,41 @@ Updated Path:
 **Commit:**
 [21dda936402788d004f6e0451d39a7995189ff47](https://github.com/Niki-Tester/tabletop-gamers/commit/21dda936402788d004f6e0451d39a7995189ff47)
 
+---
+
+**Issue Found:**
+
+- When window is resized from above 767px to below 767px part of the navigation menu is visible under the header. When clicking the menu button the navigation menu is shown in full, which is expected, but when collapsing the navigation menu again it returns to still being visible under the header.
+
+![Screen Resize Nav1 Image](doc/issues/images/issue-resize-window-nav1.png)
+![Screen Resize Nav2 Image](doc/issues/images/issue-resize-window-nav2.png)
+
+**Expected Result:**
+
+- The navigation menu should not be visible under the header when closed.
+
+**Resolution:**
+
+- While the display property of the navbar-container is set to "none", it is removed from the DOM meaning the style applied from menu.js is not applied, such that when the screen size is reduced, the navbar-containers yOffset would be set to 0, when it needed to be set to the height of the navbar-container element.
+
+- I resolved this by creating an event listener for "resize" on the window, so that once the navbar-container element is displayed the correct yOffset is recalculated and applied.
+
+**Commit:**
+[4cb83fe173df2d2f5a8566b6fc47ee7d77885b5b](https://github.com/Niki-Tester/tabletop-gamers/commit/4cb83fe173df2d2f5a8566b6fc47ee7d77885b5b)
+
 <!-- ---
 
 **Issue Found:**
 
+- 
 
 **Expected Result:**
 
+- 
 
 **Resolution:**
 
+- 
 
 **Commit:**
 [](https://github.com/Niki-Tester/tabletop-gamers/commit/) -->
