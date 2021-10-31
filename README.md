@@ -2,6 +2,8 @@
 <!-- REMOVE ALL COMMENTS BEFORE FINAL COMMIT -->
 # 🎲 **TABLETOP GAMERS** 🃏
 
+![Readme Landing Image](doc/images/amiresponsive.png)
+
 ## Project Overview
 
 The aim behind this project is to demonstrate my skills in the following areas:
