@@ -233,7 +233,7 @@ header {
 
 /* #region Section - What */
 #section-what {
-    margin: 1em;
+    margin-top: 1em;
 }
 
 #section-what>h2 {
@@ -285,7 +285,7 @@ header {
 
 /* #region Section - Events Brief */
 #events-brief {
-    padding: 2em;
+    /* padding: 2em; */
     background-color: var(--bg-accent-dark);
     color: var(--text-light);
 }
@@ -301,11 +301,10 @@ header {
 
 .event-info {
     text-align: center;
-    padding: 0 1.5em;
 }
 
 .event-info i {
-    margin-top: 1em;
+    margin-top: 2em;
     padding: 0.75em;
     font-size: 1.2em;
     background-color: var(--bg-dark);
@@ -314,7 +313,8 @@ header {
 }
 
 .event-info p {
-    margin: 1em 0;
+    margin: 1em 4em;
+    /* padding: 0 2em; */
 }
 
 #events-brief a {
@@ -329,9 +329,9 @@ header {
 #event-image,
 #virtual-event-image {
     display: block;
-    margin: 1em auto;
+    margin: 2em auto;
     border-radius: 25px;
-    max-width: 85%;
+    max-width: 55%;
     bottom: 0px;
 }
 
@@ -442,6 +442,15 @@ footer {
         font-size: 1.3em;
     }
 
+    .event-info i {
+        margin-top: 2.5em;
+    }
+
+    .event-info p {
+        max-width: 50%;
+        margin: 1em auto;
+    }
+
     #event-image {
         display: block;
         margin: auto;
@@ -463,6 +472,69 @@ footer {
         display: block;
         margin: 0.5em auto;
 
+    }
+}
+
+/* Screen Size - Laptop + */
+@media (min-width: 1024px) {
+    #hero-section h1 {
+        font-size: 3.5em;
+    }
+
+    #section-what {
+        max-width: 85%;
+        margin: 2em auto;
+    }
+
+    #section-what .article {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2em;
+    }
+
+    #section-what h2 {
+        font-size: 2.5em;
+    }
+
+    #section-what .article {
+        margin: 0 auto;
+    }
+
+    #section-what .article div {
+        display: inline;
+    }
+
+    #section-what .article h3 {
+        font-size: 2em;
+        display: inline-block;
+    }
+
+    #section-what .article-text {
+        font-size: 1.2em;
+    }
+
+    #section-what .article img {
+        display: block;
+        align-self: flex-start;
+        object-fit: cover;
+        height: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        border-radius: 50%;
+        margin: 1em 2em;
+    }
+
+    #events-brief h2 {
+        font-size: 2em;
+    }
+
+    #events-brief i {
+        font-size: 1.5em;
+    }
+
+    #events-brief p {
+        font-size: 1.1em;
     }
 }
 
