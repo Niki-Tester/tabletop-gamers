@@ -291,7 +291,6 @@ header {
 }
 
 #events-brief h2 {
-    /* margin-top: 1.5em; */
     text-align: center;
     font-family: 'Exo', sans-serif;
     font-size: 1em;
@@ -314,7 +313,6 @@ header {
 
 .event-info p {
     margin: 1em 4em;
-    /* padding: 0 2em; */
 }
 
 #events-brief a {
