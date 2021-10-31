@@ -185,19 +185,21 @@ Updated Path:
 **Commit:**
 [4cb83fe173df2d2f5a8566b6fc47ee7d77885b5b](https://github.com/Niki-Tester/tabletop-gamers/commit/4cb83fe173df2d2f5a8566b6fc47ee7d77885b5b)
 
-<!-- ---
+---
 
 **Issue Found:**
 
-- 
+- hero-section text renders on top of navbar-container, meaning the text is visible if the menu is open and the page is scrolled up.
+
+![Hero Text above Nav](doc/issues/images/issue-hero-text-above-nav.png)
 
 **Expected Result:**
 
-- 
+- When scrolling up and text / images on the page should be rendered behind the menu.
 
 **Resolution:**
 
-- 
+- Setting the Z-Index property to 1 on the navbar-container forces the menu to be rendered above anything else on the page
 
 **Commit:**
-[](https://github.com/Niki-Tester/tabletop-gamers/commit/) -->
+[6987725c8a41cd67d9f7d2c8680b772483b68a25](https://github.com/Niki-Tester/tabletop-gamers/commit/6987725c8a41cd67d9f7d2c8680b772483b68a25)
