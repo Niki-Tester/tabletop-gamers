@@ -2,7 +2,8 @@ const menu = document.getElementById('navbar-container');
 const menuButton = document.getElementById('menu-button');
 const menuCloseButton = document.getElementById('menu-close-button');
 const header = document.getElementsByTagName('header');
-let yOffset;
+let yOffset = menu.offsetHeight + header[0].offsetHeight;
+menu.style.transform = `translateY(-${yOffset}px)`;
 
 window.addEventListener('resize', () => {
     yOffset = menu.offsetHeight + header[0].offsetHeight;
