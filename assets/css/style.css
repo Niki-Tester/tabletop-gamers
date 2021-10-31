@@ -285,13 +285,13 @@ header {
 
 /* #region Section - Events Brief */
 #events-brief {
-    /* padding: 2em; */
+    padding: 1em;
     background-color: var(--bg-accent-dark);
     color: var(--text-light);
 }
 
 #events-brief h2 {
-    margin-top: 1.5em;
+    /* margin-top: 1.5em; */
     text-align: center;
     font-family: 'Exo', sans-serif;
     font-size: 1em;
