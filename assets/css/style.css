@@ -400,6 +400,15 @@ footer {
     font-size: 2em;
 }
 
+#footer .footer-section-3 {
+    width: 100%;
+}
+
+#footer-map {
+    width: 100%;
+    background-color: #eeee00;
+}
+
 /* #endregion */
 
 /* #region - Media Queries */
@@ -477,6 +486,10 @@ footer {
         display: block;
         margin: 0.5em auto;
 
+    }
+
+    #footer .footer-section-3 {
+        width: 33%;
     }
 }
 
