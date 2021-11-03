@@ -342,6 +342,31 @@ header {
 
 /* About Page */
 /* #region Section - About Us */
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    margin: 0 1em;
+}
+
+#about-us h2 {
+    margin: 1em 0;
+    color: var(--text-accent);
+    text-decoration: underline;
+}
+
+#about-us p {
+    margin: 1em auto;
+    max-width: 80%;
+    /* text-align: center; */
+}
+
+#about-us p span {
+    color: var(--text-accent);
+}
+
 /* #endregion */
 /* #region Section - About Tabletop */
 /* #endregion */
