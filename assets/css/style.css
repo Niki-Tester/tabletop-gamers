@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
 
-/* #region Utility CSS */
+/* #region - Utility CSS */
 
 :root {
     /* Text Colours */
@@ -50,7 +50,8 @@ a:hover {
 
 /* #endregion */
 
-/* #region Nav / Header */
+/* #region - Nav / Header */
+
 
 #navbar-container {
     position: fixed;
@@ -146,7 +147,8 @@ header {
 
 /* #endregion */
 
-/* #region Hero Section */
+/* Home Page */
+/* #region Section - Hero */
 
 #hero-section {
     display: flex;
@@ -231,7 +233,6 @@ header {
 }
 
 /* #endregion */
-
 /* #region Section - What */
 #section-what {
     margin: 1.5em 2em;
@@ -283,7 +284,6 @@ header {
 }
 
 /* #endregion */
-
 /* #region Section - Events Brief */
 #events-brief {
     padding: 1em;
@@ -338,6 +338,16 @@ header {
     display: none;
 }
 
+/* #endregion */
+
+/* About Page */
+/* #region Section - About Us */
+/* #endregion */
+/* #region Section - About Tabletop */
+/* #endregion */
+/* #region Section - About Virtual */
+/* #endregion */
+/* #region Section - About Social */
 /* #endregion */
 
 /* #region - Footer */
