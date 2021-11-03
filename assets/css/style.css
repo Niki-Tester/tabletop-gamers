@@ -382,7 +382,6 @@ header {
     color: var(--text-light);
     text-decoration: underline;
     transition: all ease-in-out 250ms;
-    /* font-weight: bold; */
 }
 
 #about-tabletop a:hover {
@@ -410,6 +409,37 @@ header {
 
 /* #endregion */
 /* #region Section - About Virtual */
+#about-virtual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    background-color: var(--bg-accent-dark);
+    color: var(--text-light);
+}
+
+#about-virtual a {
+    color: var(--text-light);
+    text-decoration: underline;
+    transition: all ease-in-out 250ms;
+}
+
+#about-virtual a:hover {
+    color: var(--highlighted);
+}
+
+#about-virtual p {
+    margin: .5em auto;
+    max-width: 80%;
+}
+
+#virtual-image {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+}
+
 /* #endregion */
 /* #region Section - About Social */
 /* #endregion */
