@@ -398,11 +398,6 @@ header {
     text-align: center;
 }
 
-#about-tabletop #tabletop-images {
-    display: flex;
-    /* justify-content: center; */
-}
-
 #tabletop-images img {
     display: inline-block;
     margin: 0 auto;
