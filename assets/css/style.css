@@ -360,7 +360,6 @@ header {
 #about-us p {
     margin: 1em auto;
     max-width: 80%;
-    /* text-align: center; */
 }
 
 #about-us p span {
@@ -369,6 +368,51 @@ header {
 
 /* #endregion */
 /* #region Section - About Tabletop */
+#about-tabletop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0em;
+    background-color: var(--bg-accent-dark);
+    color: var(--text-light);
+}
+
+#about-tabletop a {
+    color: var(--text-light);
+    text-decoration: underline;
+    transition: all ease-in-out 250ms;
+    /* font-weight: bold; */
+}
+
+#about-tabletop a:hover {
+    color: var(--highlighted);
+}
+
+#about-tabletop p {
+    margin: .5em auto;
+    max-width: 80%;
+}
+
+#about-tabletop #event-link {
+    text-align: center;
+}
+
+#about-tabletop #tabletop-images {
+    display: flex;
+    /* justify-content: center; */
+}
+
+#tabletop-images img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#tabletop-images img:nth-child(2) {
+    display: none;
+}
+
 /* #endregion */
 /* #region Section - About Virtual */
 /* #endregion */
