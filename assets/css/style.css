@@ -373,9 +373,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em 0em;
     background-color: var(--bg-accent-dark);
     color: var(--text-light);
+}
+
+#about-tabletop h2 {
+    margin-top: .75em;
 }
 
 #about-tabletop a {
@@ -389,8 +392,12 @@ header {
 }
 
 #about-tabletop p {
-    margin: .5em auto;
+    margin: 1em auto 0 auto;
     max-width: 80%;
+}
+
+#about-tabletop p:last-of-type {
+    margin-bottom: 1em;
 }
 
 #about-tabletop #event-link {
@@ -398,7 +405,6 @@ header {
 }
 
 #tabletop-images img {
-    display: inline-block;
     margin: 0 auto;
     width: 100%;
 }
@@ -414,10 +420,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 1em;
     background-color: var(--bg-accent-dark);
     color: var(--text-light);
 }
+
+#about-virtual h2 {
+    margin-top: .75em;
+}
+
 
 #about-virtual a {
     color: var(--text-light);
