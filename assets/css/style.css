@@ -348,7 +348,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 3em;
-    margin: 0 1em;
+    margin: 0 1em 0.5em 1em;
 }
 
 #about-us h2 {
@@ -392,7 +392,7 @@ header {
 }
 
 #about-tabletop p {
-    margin: 1em auto 0 auto;
+    margin: 1em auto 1em auto;
     max-width: 80%;
 }
 
