@@ -456,7 +456,63 @@ header {
 }
 
 /* #endregion */
-/* #region Section - About Social */
+
+/* Events Page */
+/* #region Section - Event Timeline */
+#event-timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 1em 0 1em;
+    padding-bottom: 1em;
+    background-color: var(--bg-light);
+}
+
+#event-timeline h2 {
+    margin-bottom: 1em;
+}
+
+#event-timeline li {
+    list-style: none;
+    padding-bottom: 2em;
+    border-left: 2px solid var(--bg-accent-dark);
+    position: relative;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+#event-timeline li:nth-child(odd):before {
+    content: '💻';
+    position: absolute;
+    transform: translateX(-37.5px);
+    font-size: 1.5em;
+}
+
+#event-timeline li:nth-child(even):before {
+    content: '🎲';
+    position: absolute;
+    transform: translateX(-36.5px);
+    font-size: 1.5em;
+}
+
+#event-timeline li:last-of-type {
+    padding-bottom: 0;
+}
+
+#event-timeline p {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.date span {
+    color: var(--text-accent);
+}
+
+#timeline-key {
+    margin-top: 1em;
+}
+
 /* #endregion */
 
 /* #region - Footer */
@@ -615,6 +671,24 @@ footer {
         margin: 1.25em 0;
     }
 
+    #event-timeline {
+        font-size: 1.5em;
+        padding-top: 6em;
+    }
+
+    #event-timeline li:nth-child(odd):before {
+        transform: translateX(-46.5px);
+    }
+
+    #event-timeline li:nth-child(even):before {
+        transform: translateX(-43.5px);
+    }
+
+    #event-timeline div,
+    #event-timeline p {
+        padding-left: 2em;
+    }
+
     /* Element - Footer */
 
     footer {
@@ -632,7 +706,6 @@ footer {
     footer input[type=submit] {
         display: block;
         margin: 0.5em auto;
-
     }
 
     #footer .footer-section-3 {
