@@ -515,6 +515,22 @@ header {
 
 /* #endregion */
 
+/* Gallery Page */
+/* #region Section - Gallery*/
+#gallery {
+    padding-top: 3em;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+    background-color: var(--bg-accent-dark);
+}
+
+#gallery img {
+    width: 100%;
+}
+
+/* #endregion */
+
 /* #region - Footer */
 footer {
     display: flex;
@@ -689,6 +705,12 @@ footer {
         padding-left: 2em;
     }
 
+    /* Page - Gallery */
+    #gallery {
+        padding-top: 4.5em;
+        column-count: 3;
+    }
+
     /* Element - Footer */
 
     footer {
@@ -847,6 +869,15 @@ footer {
         margin: 2em 0 3em 0;
         border-radius: 50px;
         object-fit: cover;
+    }
+
+    /* Page - Gallery */
+    #gallery {
+        column-count: 4;
+    }
+
+    #gallery img {
+        overflow: hidden;
     }
 }
 
