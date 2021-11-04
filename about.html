@@ -117,8 +117,16 @@
     <footer id="footer">
         <div class="footer-section-1">
             <h5>News Letter Sign Up!</h5>
-            <form action="/" method="get">
+            <form action="signup.html" method="get">
                 <input type="email" name="email" id="email" placeholder="Enter Email Address...">
+                <div class="radio">
+                    <label for="option">Events</label>
+                    <input type="radio" name="option" id="option" value="events">
+                    <label for="option">News &amp; Offers</label>
+                    <input type="radio" name="option" id="option" value="offers">
+                    <label for="option">Both</label>
+                    <input type="radio" name="option" id="option" value="both">
+                </div>
                 <input type="submit" value="Sign Up">
             </form>
         </div>
@@ -135,7 +143,6 @@
                 style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </div>
-
     </footer>
 
     <script src="assets/js/menu.js"></script>
