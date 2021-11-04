@@ -531,6 +531,33 @@ header {
 
 /* #endregion */
 
+/* Sign Up Page */
+/* #region Section Thank-You */
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 1.2em;
+    font-family: 'Exo', sans-serif;
+    background-image: url(https://images.pexels.com/photos/949592/pexels-photo-949592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    color: var(--text-light);
+}
+
+#thank-you p {
+    margin-top: 1em;
+    color: var(--highlighted);
+}
+
+/* #endregion */
+
 /* #region - Footer */
 footer {
     display: flex;
@@ -559,6 +586,10 @@ footer {
 
 #footer .footer-section-1 form input {
     padding: 0.25em 0.15em;
+}
+
+#footer .footer-section-1 .radio input {
+    margin-right: 0.5em;
 }
 
 #footer .footer-section-1 form input[type=submit] {
