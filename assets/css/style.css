@@ -51,8 +51,6 @@ a:hover {
 /* #endregion */
 
 /* #region - Nav / Header */
-
-
 #navbar-container {
     position: fixed;
     top: 0px;
@@ -125,23 +123,19 @@ header {
 }
 
 #menu-control {
+    background: transparent;
+    border: none;
     width: 28px;
     height: 28px;
-}
-
-#menu-button {
-    color: var(--text-light);
     font-size: 25px;
-}
-
-#menu-close-button {
-    display: none;
     color: var(--text-light);
-    font-size: 27px;
 }
 
-#menu-button:hover,
-#menu-close-button:hover {
+#menu-close-icon {
+    display: none;
+}
+
+#menu-control:hover {
     color: var(--highlighted);
 }
 
@@ -149,7 +143,6 @@ header {
 
 /* Home Page */
 /* #region Section - Hero */
-
 #hero-section {
     display: flex;
     justify-content: center;
