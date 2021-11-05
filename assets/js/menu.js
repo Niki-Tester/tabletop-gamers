@@ -1,8 +1,11 @@
 const menu = document.getElementById('navbar-container');
-const menuButton = document.getElementById('menu-button');
-const menuCloseButton = document.getElementById('menu-close-button');
+const menuButton = document.getElementById('menu-control');
+const menuCloseIcon = document.getElementById('menu-close-icon');
+const menuOpenIcon = document.getElementById('menu-open-icon');
 const header = document.getElementsByTagName('header');
 let yOffset = menu.offsetHeight + header[0].offsetHeight;
+let menuShown = false;
+
 menu.style.transform = `translateY(-${yOffset}px)`;
 
 window.addEventListener('resize', () => {
@@ -10,14 +13,17 @@ window.addEventListener('resize', () => {
     menu.style.transform = `translateY(-${yOffset}px)`;
 })
 
-menuButton.addEventListener('click', () => {
-    menuButton.style.display = 'none'
-    menuCloseButton.style.display = 'block'
-    menu.style.transform = `translateY(${header[0].offsetHeight}px)`;
-});
+menuButton.addEventListener('click', toggleMenu);
 
-menuCloseButton.addEventListener('click', () => {
-    menuCloseButton.style.display = 'none'
-    menuButton.style.display = 'block'
-    menu.style.transform = `translateY(-${yOffset}px)`;
-});
+function toggleMenu() {
+    menuShown = !menuShown
+    if (menuShown) {
+        menuOpenIcon.style.display = 'none'
+        menuCloseIcon.style.display = 'block'
+        menu.style.transform = `translateY(${header[0].offsetHeight}px)`;
+    } else {
+        menuCloseIcon.style.display = 'none'
+        menuOpenIcon.style.display = 'block'
+        menu.style.transform = `translateY(-${yOffset}px)`;
+    }
+}
