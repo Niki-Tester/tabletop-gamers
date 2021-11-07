@@ -59,6 +59,7 @@ a:hover {
     background-color: var(--bg-accent);
     transition: all 0.5s ease-in-out;
     z-index: 1;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 #navbar-container-md {
@@ -102,6 +103,7 @@ header {
     font-family: Exo, sans-serif;
     background-color: var(--bg-accent);
     z-index: 1;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 #header-logo-container a {
@@ -512,14 +514,15 @@ header {
 /* #region Section - Gallery*/
 #gallery {
     padding-top: 3em;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0px;
     background-color: var(--bg-accent-dark);
+    column-count: 1;
+    column-gap: 0px;
 }
 
 #gallery img {
-    width: 100%;
+    width: 88%;
+    margin: 3% 6%;
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* #endregion */
@@ -578,7 +581,7 @@ footer {
 }
 
 #footer .footer-section-1 form input {
-    padding: 0.25em 0.15em;
+    padding: 0.7em 0.15em;
 }
 
 #footer .footer-section-1 .radio input {
@@ -586,7 +589,7 @@ footer {
 }
 
 #footer .footer-section-1 form input[type=submit] {
-    padding: 0.35em;
+    padding: 0.7em;
     background-color: var(--bg-accent);
     color: var(--text-light);
     border: none;
@@ -733,6 +736,14 @@ footer {
     #gallery {
         padding-top: 4.5em;
         column-count: 3;
+        column-gap: 0px;
+        line-height: 0;
+    }
+
+    #gallery img {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
     }
 
     /* Element - Footer */
