@@ -11,6 +11,7 @@ menu.style.transform = `translateY(-${yOffset}px)`;
 window.addEventListener('resize', () => {
     yOffset = menu.offsetHeight + header[0].offsetHeight;
     menu.style.transform = `translateY(-${yOffset}px)`;
+    toggleMenu(menuShown = true)
 })
 
 menuButton.addEventListener('click', toggleMenu);
