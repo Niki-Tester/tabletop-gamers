@@ -15,7 +15,7 @@
 <body>
     <nav id="navbar-container">
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="#hero-section">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="gallery.html">Gallery</a></li>
@@ -31,15 +31,15 @@
         </div>
         <nav id="navbar-container-md">
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="#hero-section">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-        <button id="menu-control">
-            <i id="menu-close-icon" class="fas fa-times-circle"></i>
-            <i id="menu-open-icon" class="fas fa-bars"></i>
+        <button id="menu-control" aria-labelledby="menu-open-icon menu-close-icon">
+            <i aria-label="Open" id="menu-open-icon" class="fas fa-bars"></i>
+            <i aria-label="Close" id="menu-close-icon" class="fas fa-times-circle"></i>
         </button>
     </header>
 
@@ -49,7 +49,8 @@
             <div id="hero-text">
                 <h1>We host, You play!</h1>
                 <p>It's your turn to find out more</p>
-                <a href="#section-what"><i class="fas fa-angle-double-down"></i></a>
+                <a aria-label="Scroll to section: What are tabletop games." href="#section-what"><i
+                        class="fas fa-angle-double-down"></i></a>
             </div>
 
         </section>
@@ -58,7 +59,7 @@
             <h2>What are Tabletop Games?</h2>
             <article class="article article-1">
                 <img src="https://images.unsplash.com/photo-1585504198199-20277593b94f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1617&q=80"
-                    alt="Image of a Tabletop Game">
+                    alt="Image depicting a board game, mid play through.">
                 <div>
                     <h3>Tabletop Games:</h3>
                     <div class="article-text">
@@ -90,7 +91,7 @@
                     </div>
                     <a title="Find out more from Wikipedia" href="https://en.wikipedia.org/wiki/Tabletop_game"
                         target="_blank" rel="noopener noreferrer">
-                        <small>Read More <span>Wikipedia</span></small>
+                        <small>Read More <i class="fas fa-external-link-alt"></i></small>
                     </a>
                 </div>
             </article>
@@ -118,11 +119,11 @@
 
                     <a title="Find out more from Wikipedia" href="https://en.wikipedia.org/wiki/Digital_tabletop_game"
                         target="_blank" rel="noopener noreferrer">
-                        <small>Read More <span>Wikipedia</span></small>
+                        <small>Read More <i class="fas fa-external-link-alt"></i></small>
                     </a>
                 </div>
                 <img src="https://images.pexels.com/photos/6045099/pexels-photo-6045099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                    alt="Image of a Virtual Tabletop Game">
+                    alt="Image depicting a digital game of chess.">
             </article>
         </section>
 
@@ -130,6 +131,9 @@
             <div class="event-info event-one">
                 <h2>Choose a game and play!</h2>
                 <i class="fas fa-chess-rook"></i>
+                <p>
+                    We host a venue where you can play games, and socialize with a diverse group of people.
+                </p>
                 <p>
                     Open every, <strong>Monday</strong>, <strong>Wednesday</strong> & <strong>Friday</strong> evening,
                     and
@@ -158,49 +162,57 @@
                 </p>
                 <i class="fab fa-discord"></i>
                 <p>
-                    With access to our community <a href="https://discord.gg/wSpSSuUSY6"
-                        target="_blank"><strong>Discord</strong></a>, you can hangout
+                    With access to our community <a href="https://discord.gg/wSpSSuUSY6" target="_blank"
+                        rel="noreferrer"><strong>Discord</strong></a>, you can hangout
                     and play as long as you like, and because it is moderated, it can be enjoyed by the whole family.
                 </p>
             </div>
             <img id="event-image"
                 src="https://images.pexels.com/photos/8111358/pexels-photo-8111358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                alt="local event image">
+                alt="Image showing a group of people playing a card game.">
             <img id="virtual-event-image"
                 src="https://images.pexels.com/photos/7915214/pexels-photo-7915214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                alt="virtual event image">
+                alt="Image showing someone playing a virtual tabletop game on a PC.">
         </section>
     </main>
 
     <footer id="footer">
-        <div class="footer-section-1">
-            <h5>News Letter Sign Up!</h5>
+        <section class="footer-section-1">
+            <h3>News Letter Sign Up!</h3>
             <form action="signup.html" method="get">
-                <input type="email" name="email" id="email" placeholder="Enter Email Address..." required>
-                <div class="radio">
-                    <label for="option">Events</label>
-                    <input type="radio" name="option" id="option" value="events" required>
-                    <label for="option">News &amp; Offers</label>
-                    <input type="radio" name="option" id="option" value="offers" required>
-                    <label for="option">Both</label>
-                    <input type="radio" name="option" id="option" value="both" required>
-                </div>
+                <input aria-label="Email Address" type="email" name="email" id="email"
+                    placeholder="Enter Email Address..." required>
+                <fieldset>
+                    <legend>What do you want to subscribe to?</legend>
+                    <label for="events">Events</label>
+                    <input type="radio" name="option" id="events" value="events" required>
+
+                    <label for="offers">News &amp; Offers</label>
+                    <input type="radio" name="option" id="offers" value="offers" required>
+
+                    <label for="both">Both</label>
+                    <input type="radio" name="option" id="both" value="both" required>
+                </fieldset>
                 <input type="submit" value="Sign Up">
             </form>
-        </div>
-        <div class="footer-section-2">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://discord.gg/wSpSSuUSY6" target="_blank"><i class="fab fa-discord"></i></a>
-        </div>
-        <div class="footer-section-3">
-            <h5>Where to find us...</h5>
+        </section>
+        <section class="footer-section-2">
+            <a title="Link to twitter" href="https://twitter.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-twitter-square"></i></a>
+            <a title="Link to facebook" href="https://facebook.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a title="Link to instagram" href="https://instagram.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-instagram-square"></i></a>
+            <a title="Link to discord" href="https://discord.gg/wSpSSuUSY6" target="_blank" rel="noreferrer"><i
+                    class="fab fa-discord"></i></a>
+        </section>
+        <section class="footer-section-3">
+            <h3>Where to find us...</h3>
             <iframe id="footer-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.068884138504!2d-3.944640084087087!3d51.62194731014208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ef535f101b61d%3A0x3df66bfc5b2a35cb!2sThe%20Gamers%20Emporium!5e0!3m2!1sen!2suk!4v1635276770255!5m2!1sen!2suk"
-                style="border:0;" allowfullscreen="" loading="lazy">
+                style="border:0;" allowfullscreen="" loading="lazy" title="Google Maps">
             </iframe>
-        </div>
+        </section>
     </footer>
 
     <script src="assets/js/menu.js"></script>

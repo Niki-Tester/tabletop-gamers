@@ -16,7 +16,7 @@
     <nav id="navbar-container">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="about.html">About</a></li>
+            <li><a class="active" href="#about-us">About</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
@@ -32,14 +32,14 @@
         <nav id="navbar-container-md">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="about.html">About</a></li>
+                <li><a class="active" href="#about-us">About</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-        <button id="menu-control">
-            <i id="menu-close-icon" class="fas fa-times-circle"></i>
-            <i id="menu-open-icon" class="fas fa-bars"></i>
+        <button id="menu-control" aria-labelledby="menu-open-icon menu-close-icon">
+            <i aria-label="Open" id="menu-open-icon" class="fas fa-bars"></i>
+            <i aria-label="Close" id="menu-close-icon" class="fas fa-times-circle"></i>
         </button>
     </header>
 
@@ -83,8 +83,10 @@
             </p>
             <p id="event-link">
                 <small>
-                    <em>You can find more info about upcoming events
-                        <a href="events.html">here</a>
+                    <em>
+                        <a aria-label="Events details page" href="events.html">
+                            You can find more info about upcoming events here
+                        </a>
                     </em>
                 </small>
             </p>
@@ -115,34 +117,42 @@
     </main>
 
     <footer id="footer">
-        <div class="footer-section-1">
-            <h5>News Letter Sign Up!</h5>
+        <section class="footer-section-1">
+            <h3>News Letter Sign Up!</h3>
             <form action="signup.html" method="get">
-                <input type="email" name="email" id="email" placeholder="Enter Email Address..." required>
-                <div class="radio">
-                    <label for="option">Events</label>
-                    <input type="radio" name="option" id="option" value="events" required>
-                    <label for="option">News &amp; Offers</label>
-                    <input type="radio" name="option" id="option" value="offers" required>
-                    <label for="option">Both</label>
-                    <input type="radio" name="option" id="option" value="both" required>
-                </div>
+                <input aria-label="Email Address" type="email" name="email" id="email"
+                    placeholder="Enter Email Address..." required>
+                <fieldset>
+                    <legend>What do you want to subscribe to?</legend>
+                    <label for="events">Events</label>
+                    <input type="radio" name="option" id="events" value="events" required>
+
+                    <label for="offers">News &amp; Offers</label>
+                    <input type="radio" name="option" id="offers" value="offers" required>
+
+                    <label for="both">Both</label>
+                    <input type="radio" name="option" id="both" value="both" required>
+                </fieldset>
                 <input type="submit" value="Sign Up">
             </form>
-        </div>
-        <div class="footer-section-2">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://discord.gg/wSpSSuUSY6" target="_blank"><i class="fab fa-discord"></i></a>
-        </div>
-        <div class="footer-section-3">
-            <h5>Where to find us...</h5>
+        </section>
+        <section class="footer-section-2">
+            <a title="Link to twitter" href="https://twitter.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-twitter-square"></i></a>
+            <a title="Link to facebook" href="https://facebook.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a title="Link to instagram" href="https://instagram.com" target="_blank" rel="noreferrer"><i
+                    class="fab fa-instagram-square"></i></a>
+            <a title="Link to discord" href="https://discord.gg/wSpSSuUSY6" target="_blank" rel="noreferrer"><i
+                    class="fab fa-discord"></i></a>
+        </section>
+        <section class="footer-section-3">
+            <h3>Where to find us...</h3>
             <iframe id="footer-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.068884138504!2d-3.944640084087087!3d51.62194731014208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ef535f101b61d%3A0x3df66bfc5b2a35cb!2sThe%20Gamers%20Emporium!5e0!3m2!1sen!2suk!4v1635276770255!5m2!1sen!2suk"
-                style="border:0;" allowfullscreen="" loading="lazy">
+                style="border:0;" allowfullscreen="" loading="lazy" title="Google Maps">
             </iframe>
-        </div>
+        </section>
     </footer>
 
     <script src="assets/js/menu.js"></script>
