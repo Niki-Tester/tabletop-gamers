@@ -1,10 +1,5 @@
 # DEVELOPMENT & POST DEVELOPMENT TESTING
 
-## TABLE OF CONTENTS
-
-* [Development Testing](#development-testing)
-
-
 ## Development Testing
 
 Below is a list of issues found during the development process, detailing the issues found, the expected results, and any resolutions, along with the relevant commit if the issue was resolved.
