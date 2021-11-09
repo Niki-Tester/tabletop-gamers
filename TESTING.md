@@ -198,3 +198,33 @@ Updated Path:
 
 **Commit:**
 [6987725c8a41cd67d9f7d2c8680b772483b68a25](https://github.com/Niki-Tester/tabletop-gamers/commit/6987725c8a41cd67d9f7d2c8680b772483b68a25)
+
+---
+
+# Further Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+[W3C Markup Validator]():
+
+* [Home Page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2Findex.html)
+
+* [About Page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2Fabout.html)
+
+* [Events Page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2Fevents.html)
+
+* [Gallery Page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2Fgallery.html)
+
+* [Signup Page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2Fsignup.html)
+
+The gallery page is the only page with any feedback from the validator. The validator issues a "Warning" about the Gallery section lacking a heading, and advises to consider using h2-h6 elements to add identifying headings to all sections. It is by design that this section does not contain a header, as I wanted this page to be focused purely on the images it contains.
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
+![](https://jigsaw.w3.org/css-validator/images/vcss)
+
+The Website was tested on Google Chrome, Microsoft Edge and Safari browsers (Safari was tested by the slack community).
+
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPhone 13 and a Galaxy S21+.
+
+A large amount of testing was done to ensure that all pages were linking correctly.
