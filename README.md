@@ -67,10 +67,14 @@ The site will contain references to both forms of tabletop gaming.
 * As a user, I want to find what I require quickly and easily.
 
 ### **Design**:
-There are three main colours used:
+
+**Colours**:
+
 * ![#910000](https://via.placeholder.com/15/910000/000000?text=+) `#910000`
 * ![#555](https://via.placeholder.com/15/555/000000?text=+) `#555`
 * ![#eeee00](https://via.placeholder.com/15/eeee00/000000?text=+) `#eeee00`
+
+These are three main colours used throughout the project.
 
 **Typography**:
 * Two fonts are used throughout the project, Roboto is used for all main text. With Exo being used for headings. Sans Serif as the fallback font in case for any reason the font is not being imported into the site correctly.
@@ -80,7 +84,7 @@ There are three main colours used:
 * Imagery is especially important in this project, the large hero background image is designed to be striking and catch the user's attention.
 
 ### **Wireframes**
-To organize and streamline the development process, I created wireframes for this project, to help prevent scope creep.
+To organize and streamline the development process, I created wireframes for this project, to help me during the development process and to prevent scope creep.
 
 Below are links to each wireframe page of the project, created to cover both Mobile and Desktop versions.
 
@@ -148,9 +152,11 @@ A small amount of Javascript is used for opening and closing the navigation menu
 
 * The about page will contain information about the client, the services they offer, and include links to relevant social media sites.
 
-* The events page will contain a timeline of dates / times and locations for upcoming events, and each page will have a small form to complete for the newsletter sign up. This page will also be the main page for the newsletter sign up.
+* The events page will contain a timeline of dates / times and locations for upcoming events.
 
 * The gallery page will contain an assortment of images/photos, captured from within the clients premises and from recently held events.
+
+* Each page will have a header containing the company name and logo, along with the navigation elements, and a footer containing a small form for signing up to the newsletter, along with social media links, and a Google Map displaying the venues location.
 
 ---
 
