@@ -10,7 +10,7 @@ The aim behind this project is to demonstrate my skills in the following areas:
 
 * Developing and implementing a static frontend web application using HTML & CSS.
 
-* Maximizing future maintainability through documentation, code structure and organization.
+* Maximizing future maintainability through documentation, code structure and organisation.
 
 * Usage of version control software to maintain, upload and share code with other developers.
 
@@ -61,10 +61,20 @@ The site will contain references to both forms of tabletop gaming.
 ## **User Experience (UX)**
 
 ### **User Stories**:
-* As a user, I want to understand what tabletop gaming is.
-* As a user, I want to leave knowing more about tabletop gaming.
-* As a user, I want to be able to reach out and connect with an existing community.
-* As a user, I want to find what I require quickly and easily.
+* ### First Time Visitor Goals
+  * As a first time visitor, I want to easily understand the main purpose of the site and learn more about tabletop gaming.
+  * As a first time visitor, I want to be able to navigate the site to find content easily.
+  * As a first time visitor, I want to understand what tabletop gaming is.
+  * As a first time visitor, I want to locate the social media links.
+
+* ### Returning Visitor Goals
+  * As a returning visitor, I want to find information on upcoming events.
+  * As a returning visitor, I want to be able to reach out and connect with an existing community.
+  * As a returning visitor, I want to find the best way to get in contact for any questions I may have.
+
+* ### Frequent Visitor Goals
+  * As a frequent visitor, I want see if there are any new photos added to the gallery.
+  * As a frequent visitor, I want to sign up to the Newsletter so that I am emailed with any updates on news, events and offers.
 
 ### **Design**:
 
