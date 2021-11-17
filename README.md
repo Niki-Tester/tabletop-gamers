@@ -158,7 +158,7 @@ A small amount of Javascript is used for opening and closing the navigation menu
 * Provide the user with a photo/image gallery for past events.
 * Provide the user with a summary of services offered, and a location on where to join a group.
 
-### **How I Will Achieve This**:
+### **How I Achieved This**:
 * Starting with the home page, this will provide a summary of what tabletop gaming is, and include at a glance information on events, about who the client is, and what services they offer.
 
 * Each subject will then have a dedicated page (About / Events / Gallery), each containing further information.
