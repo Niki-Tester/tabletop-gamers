@@ -1,5 +1,38 @@
 # DEVELOPMENT & POST DEVELOPMENT TESTING
 
+## Testing User Stories from User Experience (UX)
+
+* ### First Time Visitor Testing
+
+  * As a first time visitor, I want to easily understand the main purpose of the site.
+    * When the site is loaded, the user is presented with a site that has been designed to be fluid, and never entrap the user. At the top of each page there is a link which clearly describes what page they will end up on after clicking the link.
+    *  At the bottom of each page is a footer which is consistent throughout the site, providing the user with quick and easy access to the news letter sign up form, along with social media links and a google map displaying the location of the store.
+
+  * As a first time visitor, I want to be able to navigate the site to find content easily.
+    * When the site is loaded, the user is greeted with a navigation bar at the top of the page, which contains links to access other pages on the site, which is consistent throughout the site, and is fixed to the top of the page, so that it is always visible. 
+    * On mobile the navigation bar is hidden, and the user presented with a button to open a navigation menu, which when used animates a menu that is rendered above the page content and contains the same navigation bar. This is also consistent throughout the site, and is fixed to the top of the page, so that is is always visible.
+    
+  * As a first time visitor, I want to understand what tabletop gaming is.
+    * When the site has loaded, the user is presented with a hero image, along with a title, below which is a call to action link, using a Font Awesome icon in an "\<a>" element. This has a CSS animation changing its colour from white to red which loops indefinitely, as a call to action.
+    * The user has two options, clicking the call to action icon, or scrolling down, both of which will lead to a section on the home page providing the user information on what tabletop gaming is.
+
+  * As a first time visitor, I want to locate the social media links.
+    * Once the new visitor has read the information on the home page they will notice the footer at the bottom of the page that contains three sections. The middle section within the footer contains all the links the organizations has a social media account on. This footer is presented throughout the site, and is found at the bottom of each page that the site contains.
+
+* ### Returning Visitor Goals
+  * As a returning visitor, I want to find information on upcoming events.
+    * Once the site has loaded, a returning visitor can easily find a link in the navigation bar / menu to the "Events" page, which contains a list of upcoming events, displaying both events available to attend in person at the stores location, and online via discord. These events are clearly marked which are in person and which are online. This is done using icons to represent each type, to which there is a key at the top of the page to clarify which icon corresponds to which type of event.
+
+  * As a returning visitor, I want to be able to reach out and connect with an existing community, and find the best way to get in contact with any questions I may have.
+
+    * At the bottom of each page the user will find a footer that contains links to all the social media links for the organisation where the user can reach out to contact someone from "Tabletop Gamers".
+    * The user will also find a link to the discord server, where they are able to connect with the community online.
+    * The user will find a map to for the location of the organizations premises should they wish to connect with the community in person.
+* ### Frequent Visitor Goals
+  * As a frequent visitor, I want see if there are any new photos added to the gallery.
+  * As a frequent visitor, I want to sign up to the Newsletter so that I am emailed with any updates on news, events and offers.
+
+
 ## Development Testing
 
 Below is a list of issues found during the development process, detailing the issues found, the expected results, and any resolutions, along with the relevant commit if the issue was resolved.
