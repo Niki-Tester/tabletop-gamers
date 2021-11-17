@@ -79,11 +79,15 @@ The site will contain references to both forms of tabletop gaming.
 
 **Colours**:
 
-* ![#910000](https://via.placeholder.com/15/910000/000000?text=+) `#910000`
+* ![#fafafa](https://via.placeholder.com/15/fafafa/000000?text=+) `#fafafa`
 * ![#555](https://via.placeholder.com/15/555/000000?text=+) `#555`
+* ![#660000](https://via.placeholder.com/15/660000/000000?text=+) `#660000`
+* ![#910000](https://via.placeholder.com/15/910000/000000?text=+) `#910000`
 * ![#eeee00](https://via.placeholder.com/15/eeee00/000000?text=+) `#eeee00`
 
-These are three main colours used throughout the project.
+These are the main colours used throughout the project, and contract was checked between the different colours using a [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23fafafa%0D%0A%23555%0D%0A%23660000%0D%0A%23910000%0D%0A%23eeee00&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
+
+![Contrast Grid Image](doc/images/contrast-grid.png)
 
 **Typography**:
 * Two fonts are used throughout the project, Roboto is used for all main text. With Exo being used for headings. Sans Serif as the fallback font in case for any reason the font is not being imported into the site correctly.
@@ -237,3 +241,7 @@ All images in gallery.html are from [Pexels](https://images.pexels.com) with a "
 
 ### **Acknowledgements**
 * Slack community for all the feedback, and help testing the project on various devices.
+
+* My Mentor for continuous helpful feedback.
+
+* Tutor support at Code Institute for their support.
