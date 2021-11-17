@@ -62,15 +62,14 @@ The site will contain references to both forms of tabletop gaming.
 
 ### **User Stories**:
 * ### First Time Visitor Goals
-  * As a first time visitor, I want to easily understand the main purpose of the site and learn more about tabletop gaming.
+  * As a first time visitor, I want to easily understand the main purpose of the site.
   * As a first time visitor, I want to be able to navigate the site to find content easily.
   * As a first time visitor, I want to understand what tabletop gaming is.
   * As a first time visitor, I want to locate the social media links.
 
 * ### Returning Visitor Goals
   * As a returning visitor, I want to find information on upcoming events.
-  * As a returning visitor, I want to be able to reach out and connect with an existing community.
-  * As a returning visitor, I want to find the best way to get in contact for any questions I may have.
+  * As a returning visitor, I want to be able to reach out and connect with an existing community, and find the best way to get in contact with any questions I may have.
 
 * ### Frequent Visitor Goals
   * As a frequent visitor, I want see if there are any new photos added to the gallery.
