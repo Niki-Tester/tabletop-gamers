@@ -239,7 +239,7 @@ Updated Path:
 ---
 
 # Further Testing
-
+### **HTML**:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 [W3C Markup Validator]():
@@ -256,12 +256,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The gallery page is the only page with any feedback from the validator. The validator issues a "Warning" about the Gallery section lacking a heading, and advises to consider using h2-h6 elements to add identifying headings to all sections. It is by design that this section does not contain a header, as I wanted this page to be focused purely on the images it contains.
 
+### **CSS**:
+
+The sites cascading style sheet was tested and validated using the W3C CSS Validator, which returned no errors or warnings.
+
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniki-tester.github.io%2Ftabletop-gamers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 ![](https://jigsaw.w3.org/css-validator/images/vcss)
 
-The Website was tested on Google Chrome, Microsoft Edge and Safari browsers (Safari was tested by the slack community).
+### **Browsers / Devices**:
+The website was tested on Google Chrome, Microsoft Edge and Safari browsers (Safari was tested by the slack community), and remained fully responsive and within design specification, across all browsers tested.
 
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPhone 13 and a Galaxy S21+.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhone 13 and a Galaxy S21+. The site remained responsive and was within design specification across all devices tested.
 
 A large amount of testing was done to ensure that all pages were linking correctly.
+
+### **Lighthouse**:
+
+### **Accessability**:
+Accessability was tested using the [Wave Web AIM](https://wave.webaim.org/) evaluation tool to check all of the sites pages which returned no errors.
