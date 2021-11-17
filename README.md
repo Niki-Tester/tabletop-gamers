@@ -167,7 +167,7 @@ A small amount of Javascript is used for opening and closing the navigation menu
 
 ![](doc/images/screencapture-navbar.png)
 
-* The about page will contain information about the client, the services they offer.
+* The about page will contain information about the client, and the services they offer.
 
 ![](doc/images/screencapture-about-html.png)
 
