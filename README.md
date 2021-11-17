@@ -161,16 +161,28 @@ A small amount of Javascript is used for opening and closing the navigation menu
 ### **How I Achieved This**:
 * Starting with the home page, this will provide a summary of what tabletop gaming is, and include at a glance information on events, about who the client is, and what services they offer.
 
+![](doc/images/screencapture-home-html.png)
+
 * Each subject will then have a dedicated page (About / Events / Gallery), each containing further information.
 
-* The about page will contain information about the client, the services they offer, and include links to relevant social media sites.
+![](doc/images/screencapture-navbar.png)
+
+* The about page will contain information about the client, the services they offer.
+
+![](doc/images/screencapture-about-html.png)
 
 * The events page will contain a timeline of dates / times and locations for upcoming events.
 
+![](doc/images/screencapture-events-html.png)
+
 * The gallery page will contain an assortment of images/photos, captured from within the clients premises and from recently held events.
+
+![](doc/images/screencapture-gallery-html.png)
 
 * Each page will have a header containing the company name and logo, along with the navigation elements, and a footer containing a small form for signing up to the newsletter, along with social media links, and a Google Map displaying the venues location.
 
+![](doc/images/screencapture-header.png)
+![](doc/images/screencapture-footer.png)
 ---
 
 ## **Deployment**
