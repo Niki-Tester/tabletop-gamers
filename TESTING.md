@@ -271,7 +271,5 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8
 
 A large amount of testing was done to ensure that all pages were linking correctly.
 
-### **Lighthouse**:
-
 ### **Accessability**:
 Accessability was tested using the [Wave Web AIM](https://wave.webaim.org/) evaluation tool to check all of the sites pages which returned no errors.
