@@ -50,6 +50,7 @@ The site will contain references to both forms of tabletop gaming.
   * [**Github Pages**](#github-pages)
   * [**Forking the GitHub Repository**](#forking-the-github-repository)
   * [**Making a local clone**](#making-a-local-clone)
+  * [**Link to deployed website**](#link-to-deployed-website)
 * [**Testing**](#testing)
 * [**Credits**](#credits)
   * [**Citations**](#citations)
