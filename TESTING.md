@@ -28,9 +28,13 @@
     * At the bottom of each page the user will find a footer that contains links to all the social media links for the organisation where the user can reach out to contact someone from "Tabletop Gamers".
     * The user will also find a link to the discord server, where they are able to connect with the community online.
     * The user will find a map to for the location of the organizations premises should they wish to connect with the community in person.
+
 * ### Frequent Visitor Goals
   * As a frequent visitor, I want see if there are any new photos added to the gallery.
+    * Once the site has loaded, a frequent user can easily find a link in the navigation bar / menu to the sites "Gallery" page, which contains all the images from recent events and previous events, posted by the organisation.
+
   * As a frequent visitor, I want to sign up to the Newsletter so that I am emailed with any updates on news, events and offers.
+    * Within the footer of the site, displayed on each page the site offers, is a "Newsletter Sign Up" form, where the user can enter their email address, and choose between receiving updates to just Events, News and Offers, or subscribe to both.
 
 
 ## Development Testing
