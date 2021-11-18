@@ -147,10 +147,10 @@ A small amount of Javascript is used for opening and closing the navigation menu
 ## **Planning Stage**
 
 ### **Target Audience**:
-* Users that are already playing tabletop games, but are looking for a group to play and socialize with.
-* Users that are new to tabletop games, looking to join a group of existing players.
-* Users that have never heard of tabletop games previously.
-* Users that have heard of tabletop games, but are looking for more information on the subject.
+* People who are already playing tabletop games, but are looking for a group to play and socialize with.
+* People who are new to tabletop games, looking to join a group of existing players.
+* People who have never heard of tabletop games previously.
+* People who have heard of tabletop games, but are looking for more information on the subject.
 
 ### **Site Aims**:
 * Provide the user with some basic information on what tabletop games are, and include external links to free resources for further reading.
