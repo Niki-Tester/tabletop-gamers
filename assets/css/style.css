@@ -524,6 +524,11 @@ header {
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
+#gallery img:active {
+    transform: scale(1.2);
+    transition: all ease-in-out 300ms;
+}
+
 /* #endregion */
 
 /* Sign Up Page */
