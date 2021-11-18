@@ -73,7 +73,7 @@ The site will contain references to both forms of tabletop gaming.
   * As a returning visitor, I want to be able to reach out and connect with an existing community, and find the best way to get in contact with any questions I may have.
 
 * ### Frequent Visitor Goals
-  * As a frequent visitor, I want see if there are any new photos added to the gallery.
+  * As a frequent visitor, I want to see if there are any new photos added to the gallery.
   * As a frequent visitor, I want to sign up to the Newsletter so that I am emailed with any updates on news, events and offers.
 
 ### **Design**:
