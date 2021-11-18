@@ -586,7 +586,7 @@ footer {
     margin-bottom: 0.5em;
 }
 
-#footer .footer-section-1 .radio input {
+#footer .footer-section-1 input[type='radio'] {
     margin-right: 0.5em;
 }
 
@@ -762,6 +762,10 @@ footer {
         grid-template-columns: 75px 75px;
         column-gap: 20px;
         row-gap: 20px;
+    }
+
+    #footer .footer-section-1 input[type='radio'] {
+        margin-right: 1em;
     }
 
     footer input[type=submit] {
