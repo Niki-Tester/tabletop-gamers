@@ -30,7 +30,7 @@
     * The user will find a map to for the location of the organizations premises should they wish to connect with the community in person.
 
 * ### Frequent Visitor Goals
-  * As a frequent visitor, I want see if there are any new photos added to the gallery.
+  * As a frequent visitor, I want to see if there are any new photos added to the gallery.
     * Once the site has loaded, a frequent user can easily find a link in the navigation bar / menu to the sites "Gallery" page, which contains all the images from recent events and previous events, posted by the organisation.
 
   * As a frequent visitor, I want to sign up to the Newsletter so that I am emailed with any updates on news, events and offers.
